@@ -1,0 +1,14 @@
+:root {
+  /*colors*/
+  --primary-color: #099d8d;
+}
+.header {
+  background-color: var(--primary-color);
+  opacity: 0.95;
+  color: white;
+}
+.menu {
+  background-color: #14d9c4;
+  opacity: 0.9;
+  list-style-type: none;
+}
