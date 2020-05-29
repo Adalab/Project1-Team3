@@ -1,0 +1,120 @@
+:root {
+  /*colors*/
+  --primary-color: #099d8d;
+  /*fonts*/
+  --primary-font: Rubik;
+  --secondary-font: Open Sans;
+  --icon-font: FontAwesome5BrandsRegular;
+  --grey-color: rgba(184, 184, 185, 0.1);
+  --grey-border: rgba(0, 0, 0, 0.08);
+}
+
+.wrapper {
+  position: relative;
+}
+
+body {
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+
+.title-team {
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  color: #14d9c4;
+  font-weight: 500;
+}
+
+.title-who {
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.title-secondary {
+  font-size: 1.375rem;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+.title-people {
+  font-size: 1.25rem;
+}
+
+.header {
+  font-family: var(--primary-font);
+  color: white;
+  position: fixed;
+  width: 100vw;
+}
+
+.header-title {
+  background-color: var(--primary-color);
+  opacity: 0.95;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.header-menu {
+  background-color: #14d9c4;
+  opacity: 0.9;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-menu-item {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 421px;
+  background-size: 100% 100%;
+  background-image: url(../images/hero/1.jpg);
+  object-fit: fill;
+}
+
+.motto {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  width: 290px;
+  height: 80px;
+  margin: 15px;
+  padding: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.equipo {
+  margin-top: 86px;
+  margin-bottom: 30px;
+}
+
+.strengths-weaknesses {
+  background: var(--grey-color);
+}
+
+.image-container {
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--grey-border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card {
+}
+
+.sm li {
+  list-style-type: none;
+  font-family: var(--icon-font);
+}

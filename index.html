@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Savages</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" >
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/fonts/FontAwesome5BrandsRegular.ttf" />
   </head>
   <body>
-    <div>
+    <div class="wrapper">
       <header class="header">
         <div class="header-title">
           <h1>SAVAGES</h1>
@@ -24,8 +31,7 @@
         </nav>
       </header>
 
-      <section class="hero-image">
-      </section>
+      <section class="hero-image"></section>
     </div>
     <div class="motto">
       <p>
@@ -36,7 +42,7 @@
     <main>
       <section>
         <article class="equipo">
-          <h2>EQUIPO</h2>
+          <h2 class="title-team">EQUIPO</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
             magni exercitationem delectus quasi dolorem velit, reiciendis natus!
@@ -51,9 +57,9 @@
           </p>
         </article>
 
-        <article class="fortalezas-debilidades">
-          <div class="fortalezas">
-            <h3>Fortalezas</h3>
+        <article class="strengths-weaknesses">
+          <div class="strengths">
+            <h3 class="title-secondary">Fortalezas</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
               obcaecati doloremque dignissimos aperiam sunt rerum! Veniam ut
@@ -61,8 +67,8 @@
               consequuntur pariatur, mollitia a.
             </p>
           </div>
-          <div class="debilidades">
-            <h3>Debilidades</h3>
+          <div class="weaknesses">
+            <h3 class="title-secondary">Debilidades</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed,
               aut dolores suscipit debitis nihil cum quia quo, a eveniet
@@ -74,17 +80,46 @@
       </section>
 
       <section class="quienes-somos">
-        <h2>QUIÉNES SOMOS</h2>
-        <article>
-          <img src="" alt="" />
-          <h3>Nombre1</h3>
+        <h2 class="title-who">QUIÉNES SOMOS</h2>
+        <article class="card">
+          <div class="image-container">
+            <img src="/images/Team/barbara.jpg" alt="foto barbara" />
+          </div>
+          <h3 class="title-people">Bárbara Sacristán</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
             ullam consequuntur aperiam consequatur similique minus, quasi,
             commodi quos corporis voluptate nesciunt quas sunt nemo obcaecati
             eius maiores vitae vel! Perspiciatis!
           </p>
-          <ul>
+          <ul class="sm">
+            <li>
+              <a href="https://twitter.com/explore"></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/explore"></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/explore"></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/explore"></a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="image-container">
+            <img src="/images/Team/elena.jpeg" alt="foto elena" />
+          </div>
+          <h3 class="title-people">Elena Valenzuela</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+            ullam consequuntur aperiam consequatur similique minus, quasi,
+            commodi quos corporis voluptate nesciunt quas sunt nemo obcaecati
+            eius maiores vitae vel! Perspiciatis!
+          </p>
+          <ul class="sm">
             <li>
               <a href="https://twitter.com/explore"
                 ><img src="descarga.png" alt="Description"
@@ -108,16 +143,18 @@
           </ul>
         </article>
 
-        <article>
-          <img src="" alt="" />
-          <h3>Nombre1</h3>
+        <article class="card">
+          <div class="image-container">
+            <img src="/images/Team/maria-ozamiz.jpg" alt="foto maria" />
+          </div>
+          <h3 class="title-people">María Ozamiz</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
             ullam consequuntur aperiam consequatur similique minus, quasi,
             commodi quos corporis voluptate nesciunt quas sunt nemo obcaecati
             eius maiores vitae vel! Perspiciatis!
           </p>
-          <ul>
+          <ul class="sm">
             <li>
               <a href="https://twitter.com/explore"
                 ><img src="descarga.png" alt="Description"
@@ -141,16 +178,18 @@
           </ul>
         </article>
 
-        <article>
-          <img src="" alt="" />
-          <h3>Nombre1</h3>
+        <article class="card">
+          <div class="image-container">
+            <img src="/images/Team/mariajo.jpg" alt="foto mj" />
+          </div>
+          <h3 class="title-people">María José Plaza</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
             ullam consequuntur aperiam consequatur similique minus, quasi,
             commodi quos corporis voluptate nesciunt quas sunt nemo obcaecati
             eius maiores vitae vel! Perspiciatis!
           </p>
-          <ul>
+          <ul class="sm">
             <li>
               <a href="https://twitter.com/explore"
                 ><img src="descarga.png" alt="Description"
@@ -174,49 +213,18 @@
           </ul>
         </article>
 
-        <article>
-          <img src="" alt="" />
-          <h3>Nombre1</h3>
+        <article class="card">
+          <div class="image-container">
+            <img src="/images/Team/sandra.png" alt="foto sandra" />
+          </div>
+          <h3 class="title-people">Sandra Tapia</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
             ullam consequuntur aperiam consequatur similique minus, quasi,
             commodi quos corporis voluptate nesciunt quas sunt nemo obcaecati
             eius maiores vitae vel! Perspiciatis!
           </p>
-          <ul>
-            <li>
-              <a href="https://twitter.com/explore"
-                ><img src="descarga.png" alt="Description"
-              /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/explore"
-                ><img src="descarga.png" alt="Description"
-              /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/explore"
-                ><img src="descarga.png" alt="Description"
-              /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/explore"
-                ><img src="descarga.png" alt="Description"
-              /></a>
-            </li>
-          </ul>
-        </article>
-
-        <article>
-          <img src="" alt="" />
-          <h3>Nombre1</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
-            ullam consequuntur aperiam consequatur similique minus, quasi,
-            commodi quos corporis voluptate nesciunt quas sunt nemo obcaecati
-            eius maiores vitae vel! Perspiciatis!
-          </p>
-          <ul>
+          <ul class="sm">
             <li>
               <a href="https://twitter.com/explore"
                 ><img src="descarga.png" alt="Description"
