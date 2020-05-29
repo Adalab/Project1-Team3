@@ -1,16 +1,15 @@
 :root {
   /*colors*/
   --primary-color: #099d8d;
+  --grey-color: rgba(184, 184, 185, 0.1);
+  --grey-border: rgba(0, 0, 0, 0.08);
+  --grey-footer: #b8b8b9;
+  --grey-links-footer: #54585a;
   /*fonts*/
   --primary-font: Rubik;
   --secondary-font: Open Sans;
   --icon-font: FontAwesome5BrandsRegular;
-  --grey-color: rgba(184, 184, 185, 0.1);
-  --grey-border: rgba(0, 0, 0, 0.08);
-}
 
-.wrapper {
-  position: relative;
 }
 
 body {
@@ -30,6 +29,7 @@ body {
   font-size: 1.5rem;
   color: var(--primary-color);
   font-weight: 500;
+  padding-bottom: 30px;
 }
 
 .title-secondary {
@@ -63,6 +63,12 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+}
+
+.header-menu a{
+  font-family: var(--primary-font);
+  color: white;
+  text-decoration: none;
 }
 
 .header-menu-item {
@@ -100,6 +106,8 @@ body {
 
 .strengths-weaknesses {
   background: var(--grey-color);
+ padding-top: 30px;
+ padding-bottom: 45px;
 }
 
 .image-container {
@@ -111,10 +119,48 @@ body {
   margin: auto;
 }
 
+.quienes-somos{
+  padding-top: 30px;
+}
+
 .card {
+  padding-bottom: 45px;
+}
+
+.sm{
+  
 }
 
 .sm li {
   list-style-type: none;
   font-family: var(--icon-font);
+}
+
+.copyright{
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--grey-footer);
+  font-family: var(--secondary-font);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-links a{
+  list-style-type: none;
+  line-height: 20px;
+  font-size: 14px;
+  color: var(--grey-links-footer);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.logo-adalab{
+  max-width: 116px;
+  max-height: 45px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.main-footer{
+  padding-bottom: 45px;
 }
