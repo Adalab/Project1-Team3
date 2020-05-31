@@ -45,8 +45,11 @@ body {
   font-family: var(--primary-font);
   color: white;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 15;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
 .header-title {
@@ -178,3 +181,12 @@ body {
 .main-footer {
   padding-bottom: 45px;
 }
+
+.wrapper{
+  max-width:320px;
+  margin: auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
