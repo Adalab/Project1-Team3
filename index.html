@@ -14,35 +14,38 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="fonts/FontAwesome5BrandsRegular.ttf" />
+    <script
+      src="https://kit.fontawesome.com/b06a5f3def.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-      <header class="header wrapper">
-        <div class="header-title">
-          <h1>SAVAGES</h1>
-        </div>
-        <nav>
-          <ul class="header-menu">
-            <li class="header-menu-item"><a href="#">EQUIPO</a></li>
-            <li class="header-menu-item"><a href="#">QUIÉNES SOMOS</a></li>
-            <li class="header-menu-item"><a href="#">CONTACTO</a></li>
-          </ul>
-        </nav>
-      </header>
+    <header class="header wrapper">
+      <div class="header-title">
+        <h1>SAVAGES</h1>
+      </div>
+      <nav>
+        <ul class="header-menu">
+          <li class="header-menu-item"><a href="#">EQUIPO</a></li>
+          <li class="header-menu-item"><a href="#">QUIÉNES SOMOS</a></li>
+          <li class="header-menu-item"><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <div class="wrapper">
       <section class="hero-image"></section>
       <div class="motto">
         <p>
-         "Disfruta del camino"
+          "Disfruta del camino"
         </p>
       </div>
     </div>
 
     <main class="wrapper">
       <section>
-        <article class="equipo">
+        <article class="team" id="team">
           <h2 class="title-team">EQUIPO</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
@@ -80,7 +83,7 @@
         </article>
       </section>
 
-      <section class="quienes-somos">
+      <section class="who" id="who">
         <h2 class="title-who">QUIÉNES SOMOS</h2>
         <article class="card">
           <div class="image-container">
@@ -88,22 +91,28 @@
           </div>
           <h3 class="title-people">Bárbara Sacristán</h3>
           <p>
-            Bárbara B. Sacristán, nacida en Tenerife y madrileña de adopción. Soy técnica superior en Educación Infantil y estudiante de flauta travesera, aunque toda mi experiencia laboral ha sido como comercial y auxiliar administrativa. En mi tiempo libre, lo que más me gusta es la música, estar con los míos y un buen libro.
+            Bárbara B. Sacristán, nacida en Tenerife y madrileña de adopción.
+            Soy técnica superior en Educación Infantil y estudiante de flauta
+            travesera, aunque toda mi experiencia laboral ha sido como comercial
+            y auxiliar administrativa. En mi tiempo libre, lo que más me gusta
+            es la música, estar con los míos y un buen libro.
           </p>
-          <ul class="sm">
-            <li>
-              <a href="mailto:barbara@gmail.com"></a>
-            </li>
-            <li>
-              <a href="linkedin"></a>
-            </li>
-            <li>
-              <a href="github"></a>
-            </li>
-            <li>
-              <a href="correo"></a>
-            </li>
-          </ul>
+          <span class="sm">
+            <a href="https://twitter.com/bbeatrizsi" text="Twitter"
+              ><i class="fab fa-twitter icons"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/bárbara-b-sacristán-ibáñez-26485b104/"
+              text="Linkedin"
+              ><i class="fab fa-linkedin-in icons"></i
+            ></a>
+            <a href="https://github.com/BbeatrizSI" text="GitHub"
+              ><i class="fab fa-github-alt icons"></i
+            ></a>
+            <a href="mailto:bbeatriz@gmail.com" text="Correo"
+              ><i class="fas fa-envelope icons"></i
+            ></a>
+          </span>
         </article>
 
         <article class="card">
@@ -112,22 +121,25 @@
           </div>
           <h3 class="title-people">Elena Valenzuela</h3>
           <p>
-            ¡Hola, soy Elena!, pero puedes llamarme, Hel, Lenú o como prefieras. De Sevilla y más rica gracias a mi paso por Barcelona, China y Madrid. Ex marketeer y actual estudiante front-end motivada. Me gustan el deporte y los helados a partes iguales, menos mal...
+            ¡Hola, soy Elena!, pero puedes llamarme, Hel, Lenú o como prefieras.
+            De Sevilla y más rica gracias a mi paso por Barcelona, China y
+            Madrid. Ex marketeer y actual estudiante front-end motivada. Me
+            gustan el deporte y los helados a partes iguales, menos mal...
           </p>
-          <ul class="sm">
-            <li>
-              <a href="twiter"></a>
-            </li>
-            <li>
-              <a href="linkedin"></a>
-            </li>
-            <li>
-              <a href="github"></a>
-            </li>
-            <li>
-              <a href="correo"></a>
-            </li>
-          </ul>
+          <span class="sm">
+            <a href="https://twitter.com/" text="Twitter"
+              ><i class="fab fa-twitter icons"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/" text="Linkedin"
+              ><i class="fab fa-linkedin-in icons"></i
+            ></a>
+            <a href="https://github.com/" text="GitHub"
+              ><i class="fab fa-github-alt icons"></i
+            ></a>
+            <a href="mailto:@gmail.com" text="Correo"
+              ><i class="fas fa-envelope icons"></i
+            ></a>
+          </span>
         </article>
 
         <article class="card">
@@ -136,22 +148,25 @@
           </div>
           <h3 class="title-people">María Ozámiz</h3>
           <p>
-            Estudiante de front-end con 8 años de experiencia en arte contemporáneo y museos. Actualmente resido en Vigo (según algunos, la mejor ciudad del mundo). Lo que más me gusta es jugar al Rayman Legends.
+            Estudiante de front-end con 8 años de experiencia en arte
+            contemporáneo y museos. Actualmente resido en Vigo (según algunos,
+            la mejor ciudad del mundo). Lo que más me gusta es jugar al Rayman
+            Legends.
           </p>
-          <ul class="sm">
-            <li>
-              <a href="twiter"></a>
-            </li>
-            <li>
-              <a href="linkedin"></a>
-            </li>
-            <li>
-              <a href="github"></a>
-            </li>
-            <li>
-              <a href="correo"></a>
-            </li>
-          </ul>
+          <span class="sm">
+            <a href="https://twitter.com/" text="Twitter"
+              ><i class="fab fa-twitter icons"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/" text="Linkedin"
+              ><i class="fab fa-linkedin-in icons"></i
+            ></a>
+            <a href="https://github.com/" text="GitHub"
+              ><i class="fab fa-github-alt icons"></i
+            ></a>
+            <a href="mailto:@gmail.com" text="Correo"
+              ><i class="fas fa-envelope icons"></i
+            ></a>
+          </span>
         </article>
 
         <article class="card">
@@ -160,22 +175,25 @@
           </div>
           <h3 class="title-people">María José Plaza</h3>
           <p>
-            MJ: María José Plaza, extremeña afincada en Mallorca ;) Licenciada en Com. Audiovisual con experiencia en producción audiovisual pero más recientemente en RRHH. Lo que más me gusta es la música y la comida.
+            MJ: María José Plaza, extremeña afincada en Mallorca ;) Licenciada
+            en Com. Audiovisual con experiencia en producción audiovisual pero
+            más recientemente en RRHH. Lo que más me gusta es la música y la
+            comida.
           </p>
-          <ul class="sm">
-            <li>
-              <a href="twiter"></a>
-            </li>
-            <li>
-              <a href="linkedin"></a>
-            </li>
-            <li>
-              <a href="github"></a>
-            </li>
-            <li>
-              <a href="correo"></a>
-            </li>
-          </ul>
+          <span class="sm">
+            <a href="https://twitter.com/" text="Twitter"
+              ><i class="fab fa-twitter icons"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/" text="Linkedin"
+              ><i class="fab fa-linkedin-in icons"></i
+            ></a>
+            <a href="https://github.com/" text="GitHub"
+              ><i class="fab fa-github-alt icons"></i
+            ></a>
+            <a href="mailto:@gmail.com" text="Correo"
+              ><i class="fas fa-envelope icons"></i
+            ></a>
+          </span>
         </article>
 
         <article class="card">
@@ -184,38 +202,42 @@
           </div>
           <h3 class="title-people">Sandra Tapia</h3>
           <p>
-            Me llamo Sandra y soy de Madrid, siempre he vivido aquí. Estudié Comercio Internacional, he trabajado en los Departamentos de Importación y Compras de diferentes empresas. Me encanta nadar, bucear, reirme, escuchar música y me apasiona el helado de chocolate :)
+            Me llamo Sandra y soy de Madrid, siempre he vivido aquí. Estudié
+            Comercio Internacional, he trabajado en los Departamentos de
+            Importación y Compras de diferentes empresas. Me encanta nadar,
+            bucear, reirme, escuchar música y me apasiona el helado de chocolate
+            :)
           </p>
-          <ul class="sm">
-            <li>
-              <a href="twiter"></a>
-            </li>
-            <li>
-              <a href="linkedin"></a>
-            </li>
-            <li>
-              <a href="github"></a>
-            </li>
-            <li>
-              <a href="correo"></a>
-            </li>
-          </ul>
+          <span class="sm">
+            <a href="https://twitter.com/" text="Twitter"
+              ><i class="fab fa-twitter icons"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/" text="Linkedin"
+              ><i class="fab fa-linkedin-in icons"></i
+            ></a>
+            <a href="https://github.com/" text="GitHub"
+              ><i class="fab fa-github-alt icons"></i
+            ></a>
+            <a href="mailto:@gmail.com" text="Correo"
+              ><i class="fas fa-envelope icons"></i
+            ></a>
+          </span>
         </article>
       </section>
     </main>
 
     <footer class="main-footer wrapper">
-        <h4 class="copyright">Savages ©2020</h4>
-  
-        <ul class="footer-links">
-          <li><a href=".title-team">EQUIPO</a></li>
-          <li><a href="quiénes-somos">QUIÉNES SOMOS</a></li>
-          <li><a href="#">CONTACTO</a></li>
-        </ul>
+      <h4 class="copyright">Savages ©2020</h4>
 
-        <div class="logo-adalab">
-          <img src="images/logo-adalab/adalab_brand.png" alt="logo-adalab" />
-        </div>
+      <ul class="footer-links">
+        <li><a href="#team">EQUIPO</a></li>
+        <li><a href="#who">QUIÉNES SOMOS</a></li>
+        <li><a href="#">CONTACTO</a></li>
+      </ul>
+
+      <div class="logo-adalab">
+        <img src="images/logo-adalab/adalab_brand.png" alt="logo-adalab" />
+      </div>
     </footer>
   </body>
 </html>
