@@ -11,7 +11,6 @@
 }
 
 * {
-  box-sizing: border-box;
   text-decoration: none;
   font-family: var(--secondary-font);
   text-align: center;
