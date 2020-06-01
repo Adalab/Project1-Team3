@@ -276,7 +276,6 @@ body {
   }
   .bite {
     transform: translate(0, 250%) rotate(45deg);
-    z-index: 5;
   }
   .strengths-weaknesses {
     display: flex;
