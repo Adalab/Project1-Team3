@@ -123,6 +123,7 @@ body {
   background-color: white;
   transform: translate(0, 150%) rotate(45deg);
   margin: auto;
+  z-index: 14;
 }
 .strengths-weaknesses {
   background: var(--grey-color);
