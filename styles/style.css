@@ -194,3 +194,40 @@
 .main-footer {
   padding-bottom: 2.813rem;
 }
+
+@media all and (min-width:768px){
+  /* HEADER */
+  .motto{
+
+  }
+
+  /* MAIN */
+  .wrapper{
+    max-width: 48rem;
+    margin: auto;
+    width: 100%;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+  /* TEAM */
+  .strengths-weaknesses{
+
+  }
+  .left{
+
+  }
+  .right{
+
+  }
+
+  /* FOOTER */
+  .main-footer{
+    display: flex;
+  }
+  .copyright{
+    border: 1px solid red;
+  }
+  .footer-links{
+    
+  }
+}
