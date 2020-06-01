@@ -17,7 +17,6 @@
 }
 
 .wrapper {
-  max-width: 20rem;
   margin: auto;
   width: 100%;
   padding-left: 0.9375rem;
@@ -45,6 +44,7 @@
   padding-bottom: 0.9375rem;
   text-align: center;
   font-family: var(--primary-font);
+  width: auto;
 }
 
 .header-menu {
@@ -229,7 +229,7 @@
   }
 
   /* MAIN */
-  .wrapper{
+  .wrapper, .wrapper-2{
     max-width: 48rem;
     margin: auto;
     width: 100%;
