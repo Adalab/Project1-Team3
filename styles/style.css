@@ -273,6 +273,6 @@
   .logo-adalab{
     padding-top: 0px;
     position: absolute;
-    transform: translateY(100%);
+    transform: translate(-9px,100%);
   }
 }
