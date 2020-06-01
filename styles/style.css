@@ -44,6 +44,7 @@
   padding-top: 0.9375rem;
   padding-bottom: 0.9375rem;
   text-align: center;
+  font-family: var(--primary-font);
 }
 
 .header-menu {
@@ -197,6 +198,32 @@
 
 @media all and (min-width:768px){
   /* HEADER */
+  .header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    opacity: 95%;
+  }
+  .header-title {
+    height: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .nav-header-menu{
+    width: 50%;
+  }
+  .header-menu {
+    background-color: var(--primary-color);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9375rem;
+  }
+
   .motto{
 
   }
@@ -206,13 +233,14 @@
     max-width: 48rem;
     margin: auto;
     width: 100%;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 2.813rem;
+    padding-right: 2.813rem;
   }
   /* TEAM */
   .strengths-weaknesses{
-
+    
   }
+  
   .left{
 
   }
@@ -223,11 +251,28 @@
   /* FOOTER */
   .main-footer{
     display: flex;
+    justify-content: space-between;
+    height: 10.63rem;
   }
   .copyright{
-    border: 1px solid red;
+    padding-top: 0.125rem;
+    position: relative;
   }
   .footer-links{
-    
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 20.25rem;
+    height: 5.625rem;
+  }
+  .footer-links li{
+    padding: 3px;
+  }
+  .logo-adalab{
+    padding-top: 0px;
+    position: absolute;
+    transform: translateY(100%);
   }
 }
