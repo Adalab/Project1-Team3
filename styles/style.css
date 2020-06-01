@@ -22,6 +22,7 @@
   width: 100%;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  position: relative;
 }
 
 /* HEADER */
@@ -73,17 +74,13 @@
 }
 
 .motto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
+  display: block;
   background-color: white;
   width: 15.63rem;
   height: 4.063rem;
-  margin: 0.9375rem;
+  margin: auto;
   padding: 0.9375rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
   font-weight: 600;
   font-size: 1.25rem;
 }
@@ -91,7 +88,6 @@
 /* TEAM */
 
 .team {
-  margin-top: 5.375rem;
   margin-bottom: 1.875rem;
 }
 
@@ -102,6 +98,14 @@
   font-weight: 500;
 }
 
+.bite {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  transform: translate(0, -150%) rotate(45deg);
+  margin: auto;
+}
 .strengths-weaknesses {
   background: var(--grey-color);
   padding-top: 1.875rem;
