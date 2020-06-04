@@ -245,6 +245,9 @@ body {
   margin: 0.5rem; }
 
 /* FOOTER */
+.footer-border {
+  border-top: 1px solid var(--grey-footer); }
+
 .copyright {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -269,7 +272,6 @@ body {
 
 .main-footer {
   padding-bottom: 2.813rem;
-  border-top: 1px solid var(--grey-footer);
   padding-top: 1.875rem; }
 
 @media all and (min-width: 768px) {
@@ -278,7 +280,7 @@ body {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     opacity: 95%; }
   .header-title {
     height: 60px;
@@ -288,7 +290,7 @@ body {
     font-size: 16px;
     line-height: 30px; }
   .nav-header-menu {
-    width: 50%; }
+    width: 295px; }
   .header-menu {
     background-color: var(--primary-color);
     height: 60px;
@@ -301,8 +303,8 @@ body {
     margin-left: 46px;
     transform: translate(0, -100%); }
   /* MAIN */
-  .wrapper {
-    max-width: 768px;
+  .wrapper,
+  .wrapper2 {
     margin: auto;
     width: 100%;
     padding-left: 45px;
@@ -378,15 +380,13 @@ body {
     padding-right: 138px; }
   .wrapper {
     max-width: 924px; }
-  .header-container {
-    max-width: 924px; }
   .hero-image {
     height: 550px;
     background-size: cover; }
   .header-title {
     width: 65%; }
   .nav-header-menu {
-    width: 35%; }
+    width: 295px; }
   /* WHO */
   .image-container {
     width: 278px;

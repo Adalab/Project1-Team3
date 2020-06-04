@@ -279,6 +279,9 @@ body {
 
 /* FOOTER */
 
+.footer-border {
+  border-top: 1px solid var(--grey-footer);
+}
 .copyright {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -306,7 +309,6 @@ body {
 
 .main-footer {
   padding-bottom: 2.813rem;
-  border-top: 1px solid var(--grey-footer);
   padding-top: 1.875rem;
 }
 
@@ -316,7 +318,7 @@ body {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     opacity: 95%;
   }
   .header-title {
@@ -328,7 +330,7 @@ body {
     line-height: 30px;
   }
   .nav-header-menu {
-    width: 50%;
+    width: 295px;
   }
   .header-menu {
     background-color: var(--primary-color);
@@ -346,9 +348,8 @@ body {
   }
 
   /* MAIN */
-  // .wrapper-2
-  .wrapper {
-    max-width: 768px;
+  .wrapper,
+  .wrapper2 {
     margin: auto;
     width: 100%;
     padding-left: 45px;
@@ -438,7 +439,6 @@ body {
 }
 @media all and (min-width: 1200px) {
   .wrapper2 {
-    // max-width: 1200px;
     margin: auto;
     width: 100%;
     padding-left: 138px;
@@ -447,11 +447,6 @@ body {
   .wrapper {
     max-width: 924px;
   }
-
-  .header-container {
-    max-width: 924px;
-  }
-
   .hero-image {
     height: 550px;
     background-size: cover;
@@ -460,7 +455,7 @@ body {
     width: 65%;
   }
   .nav-header-menu {
-    width: 35%;
+    width: 295px;
   }
   /* WHO */
   .image-container {
