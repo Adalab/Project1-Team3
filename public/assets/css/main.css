@@ -278,7 +278,7 @@ body {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     opacity: 95%; }
   .header-title {
     height: 60px;
@@ -301,9 +301,8 @@ body {
     margin-left: 46px;
     transform: translate(0, -100%); }
   /* MAIN */
-  .wrapper,
-  .wrapper-2 {
-    max-width: 48rem;
+  .wrapper {
+    max-width: 768px;
     margin: auto;
     width: 100%;
     padding-left: 45px;
@@ -372,13 +371,14 @@ body {
     transform: translate(-9px, 100%); } }
 
 @media all and (min-width: 1200px) {
-  .wrapper-2 {
-    max-width: 1200px;
+  .wrapper2 {
     margin: auto;
     width: 100%;
     padding-left: 138px;
     padding-right: 138px; }
   .wrapper {
+    max-width: 924px; }
+  .header-container {
     max-width: 924px; }
   .hero-image {
     height: 550px;
