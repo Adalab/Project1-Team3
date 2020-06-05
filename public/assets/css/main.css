@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  text-decoration: none;
+  text-align: center; }
+
 /* Box sizing rules */
 *,
 *::before,
@@ -76,21 +80,8 @@ img:not([alt]) {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
 
-:root {
-  /*colors*/
-  --primary-color: #099d8d;
-  --grey-color: rgba(184, 184, 185, 0.1);
-  --grey-border: rgba(0, 0, 0, 0.08);
-  --grey-footer: #b8b8b9;
-  --grey-links-footer: #54585a;
-  /*fonts*/
-  --primary-font: Rubik;
-  --secondary-font: Open Sans; }
-
-* {
-  text-decoration: none;
-  text-align: center; }
-
+/*colors*/
+/*fonts*/
 body {
   font-family: var(--secondary-font);
   line-height: 24px; }
