@@ -1,8 +1,10 @@
 @import "core/reset";
 @import "core/variables";
+@import "layout/footer";
+
 
 body {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     line-height: 24px;
 }
 
@@ -178,41 +180,6 @@ body {
     margin: 0.5rem;
 }
 
-/* FOOTER */
-
-.footer-border {
-    border-top: 1px solid var(--grey-footer);
-}
-.copyright {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: var(--grey-footer);
-    font-family: var(--secondary-font);
-    padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
-}
-
-.footer-links a {
-    list-style-type: none;
-    line-height: 1.25rem;
-    font-size: 0.875rem;
-    color: var(--grey-links-footer);
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-.logo-adalab {
-    max-width: 7.25rem;
-    max-height: 2.813rem;
-    padding-top: 1.875rem;
-    margin: auto;
-}
-
-.main-footer {
-    padding-bottom: 2.813rem;
-    padding-top: 1.875rem;
-}
-
 @media all and (min-width: 768px) {
     /* HEADER */
     .header {
@@ -308,34 +275,6 @@ body {
         align-items: flex-end;
         margin-right: 31px;
         width: 440px;
-    }
-
-    /* FOOTER */
-    .main-footer {
-        display: flex;
-        justify-content: space-between;
-        height: 10.63rem;
-    }
-    .copyright {
-        padding-top: 0.125rem;
-        position: relative;
-    }
-    .footer-links {
-        order: 3;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-        width: 20.25rem;
-        height: 5.625rem;
-    }
-    .footer-links li {
-        padding: 3px;
-    }
-    .logo-adalab {
-        padding-top: 0px;
-        position: absolute;
-        transform: translate(-9px, 100%);
     }
 }
 @media all and (min-width: 1200px) {
