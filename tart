@@ -1,0 +1,255 @@
+[33mcommit aaba3a91eb7cd9d1007bcb2cf5fdbdd31271a4cc[m[33m ([m[1;36mHEAD -> [m[1;32mheader[m[33m, [m[1;31morigin/header[m[33m)[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Fri Jun 5 12:40:48 2020 +0200
+
+    first try header&hero
+
+[33mcommit d649c394243c33fe95b0e6df51da34ced243f930[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Fri Jun 5 11:58:52 2020 +0200
+
+    partials scss
+
+[33mcommit deb8b37d6d42ae721442b4093ae02f6d46f8b769[m
+Author: mariajop <mariajops@gmail.com>
+Date:   Thu Jun 4 14:00:30 2020 +0200
+
+    footer ok header not ok
+
+[33mcommit 87ae841f12a56ecebdec7979ae6bf0d52658bbe8[m
+Author: mariajop <mariajops@gmail.com>
+Date:   Thu Jun 4 13:22:25 2020 +0200
+
+    header not working
+
+[33mcommit dab46786b5d67e15554da2910bab48daf7b38a14[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Thu Jun 4 12:17:38 2020 +0200
+
+    migration done
+
+[33mcommit 70d4406c5edccdf874a2a5cca92d7da0e6d2a9d9[m
+Merge: 0112037 83cfbd7
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Wed Jun 3 12:20:12 2020 +0200
+
+    desktop
+
+[33mcommit 0112037d3fdbd5e923546fd79d9f0c5a50941f02[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Wed Jun 3 12:18:27 2020 +0200
+
+    desktop
+
+[33mcommit 83cfbd716341515f950530018064ae3fbaab537e[m
+Author: mariajop <mariajops@gmail.com>
+Date:   Tue Jun 2 20:59:07 2020 +0200
+
+    cambio foto mj
+
+[33mcommit 9b36283b6bc22225714b815e5e64104de245f66f[m
+Author: mariajop <63906426+mariajop@users.noreply.github.com>
+Date:   Tue Jun 2 20:41:15 2020 +0200
+
+    Add files via upload
+
+[33mcommit 36c6724f8f90250a9bfb5584bb3643f96215a6f8[m
+Author: mariajop <63906426+mariajop@users.noreply.github.com>
+Date:   Tue Jun 2 20:40:16 2020 +0200
+
+    Delete mariajo.jpg
+
+[33mcommit c3b73c573c78b0618538f73edf3344f3e12217ac[m
+Author: mariajop <63906426+mariajop@users.noreply.github.com>
+Date:   Tue Jun 2 18:17:50 2020 +0200
+
+    Add files via upload
+
+[33mcommit 5950ff8a9816593dc175726f603dd97b20d91937[m
+Author: mariajop <63906426+mariajop@users.noreply.github.com>
+Date:   Tue Jun 2 18:17:06 2020 +0200
+
+    Delete mariajo.jpg
+
+[33mcommit 62e2e0c2317174c593040020db2e78c8c83a1ce5[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Mon Jun 1 23:24:17 2020 +0200
+
+    fix bite again
+
+[33mcommit 3e1923674b3b92402b895dbc536c5ed5fc40d4c9[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Mon Jun 1 23:19:56 2020 +0200
+
+    fix bite
+
+[33mcommit 2a3af20331149be893377fd9f6aaf3464efa4aa1[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Mon Jun 1 21:27:25 2020 +0200
+
+    fix hero
+
+[33mcommit 4e81d84c36a3f801e6007794b230d97c30f56919[m
+Author: sandra1894 <sandritant62@gmail.com>
+Date:   Mon Jun 1 20:19:41 2020 +0200
+
+    finish first commit
+
+[33mcommit ca64b46f1c594c2c91431bb29e828280fb990d9d[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Mon Jun 1 19:49:28 2020 +0200
+
+    relative path photos
+
+[33mcommit 79c6e304625f3b89c1d4b44c1fa5c6384bdaeef4[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Mon Jun 1 19:43:58 2020 +0200
+
+    relative path
+
+[33mcommit d48503b7502dcbe6b0360f6021defa3516c22fd8[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Mon Jun 1 19:37:41 2020 +0200
+
+    mobile and tablet completed
+
+[33mcommit 4cc198d5db4b784319cbceaa3b33e5117903a3c3[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Mon Jun 1 17:46:09 2020 +0200
+
+    last movements
+
+[33mcommit 3433f72d50d12e0504404bf208696c6613c4f79d[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Mon Jun 1 16:17:53 2020 +0200
+
+    header and footer responsive
+
+[33mcommit 28f8eed5b1313ce093d3cccdc7830b607add5ca7[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Mon Jun 1 16:11:48 2020 +0200
+
+    responsive header and footer
+
+[33mcommit 61d542dfe99fe2045e8e43880cb57fe6e301080f[m
+Author: sandra1894 <sandritant62@gmail.com>
+Date:   Mon Jun 1 15:07:29 2020 +0200
+
+    responsive and footer
+
+[33mcommit 4223780355c86a9d3bbd8c9409b7def7767c5d9c[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Mon Jun 1 14:20:29 2020 +0200
+
+    add bite sm and remove wrapper over header and hero
+
+[33mcommit cbbbe96f25b47b0e196b2052d5c632f7d0c59139[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Sun May 31 21:25:06 2020 +0200
+
+    add sm icons & convert all px to rem
+
+[33mcommit 6a907ad89f55156eef48b4467a984c7af1101cd0[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Sun May 31 20:47:22 2020 +0200
+
+    add sm icons & convert all px to rem
+
+[33mcommit c67035be207b808f7be3ba2dcaa62daf4ed88a80[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Sun May 31 20:37:59 2020 +0200
+
+    add sm icons & convert all px to rem
+
+[33mcommit aa9e918604475ad8803221875836b973d1d0867f[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Sun May 31 14:18:27 2020 +0200
+
+    finish sunday
+
+[33mcommit 188a46ee03eec68322de505cc86ab29bd4e0af6e[m
+Author: elevalgue <elena.valenzuela.guerrero@gmail.com>
+Date:   Sun May 31 13:24:50 2020 +0200
+
+    domingo
+
+[33mcommit 70e94ad068b1623ba30a6c2fd2c21d7607f2e923[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Sun May 31 11:42:27 2020 +0200
+
+    correct Savages
+
+[33mcommit a15a4affbd77856219782f4a908f333186ae223c[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Sat May 30 10:27:30 2020 +0200
+
+    Delete stylecabecera.css
+
+[33mcommit 6e533f511477ac2c4bd1d1cf687bf05e55d85a3d[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Sat May 30 10:27:21 2020 +0200
+
+    Delete reset.css
+
+[33mcommit 021904d79a35dcaa619b515e5803a852cce5fade[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Sat May 30 10:27:11 2020 +0200
+
+    Delete probandocabecera.html
+
+[33mcommit c90c23e0c7fd8e1bbc166bce49a185ba53205d51[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Sat May 30 10:27:01 2020 +0200
+
+    Delete hero.jpg
+
+[33mcommit 468e45207458d22953208308d5d84b0bb8a42776[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Fri May 29 18:53:50 2020 +0200
+
+    adding footer
+
+[33mcommit 79bdd4c77edafe8e0c0438c277cb687ada7fb261[m
+Author: mariajop <mariajops@gmail.com>
+Date:   Fri May 29 14:04:56 2020 +0200
+
+    sobre maldito
+
+[33mcommit 092f91abaa4edd05811519000bfac8b4e9e3b0b4[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Thu May 28 18:04:43 2020 +0200
+
+    gitignore added
+
+[33mcommit 7e93814e77d86e8ffa61e9c2955efd91211243ad[m
+Author: Maria Ozamiz <ozamiz.m@gmail.com>
+Date:   Thu May 28 12:32:09 2020 +0200
+
+    header
+
+[33mcommit 25e54f1926d9236cacb82dc444e616643598fe0a[m
+Merge: 0f7e656 88ab89f
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Wed May 27 16:35:58 2020 +0200
+
+    Merge pull request #1 from Adalab/testing
+    
+    Testing header
+
+[33mcommit 88ab89f3bcde00506a33403c51670f15ca2f7d7f[m[33m ([m[1;31morigin/testing[m[33m)[m
+Author: sandra1894 <65424709+sandra1894@users.noreply.github.com>
+Date:   Wed May 27 16:34:32 2020 +0200
+
+    Testing header
+
+[33mcommit 0f7e65673cc4d2a121369fe07cd09e101baedd6f[m
+Author: BbeatrizSI <bbeatriz@gmail.com>
+Date:   Wed May 27 14:18:31 2020 +0200
+
+    add header styles
+
+[33mcommit 675c517708b46c021a39b2297e6e711ecf03f856[m
+Author: sandra1894 <sandritant62@gmail.com>
+Date:   Tue May 26 12:28:34 2020 +0200
+
+    index-sauvages
