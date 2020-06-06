@@ -1,9 +1,14 @@
- /*colors*/
-    $primary-color: #099d8d;
-    $grey-color: rgba(184, 184, 185, 0.1);
-    $grey-border: rgba(0, 0, 0, 0.08);
-    $grey-footer: #b8b8b9;
-    $grey-links-footer: #54585a;
+/*colors*/
+$primary-color: #099d8d;
+$grey-color: rgba(184, 184, 185, 0.1);
+$grey-border: rgba(0, 0, 0, 0.08);
+$grey-footer: #b8b8b9;
+$grey-links-footer: #54585a;
 /*fonts*/
-    $primary-font: Rubik;
-    $secondary-font: Open Sans;
+$primary-font: Rubik;
+$secondary-font: 'Open Sans', sans-serif;
+
+* {
+    text-decoration: none;
+    text-align: center;
+}
