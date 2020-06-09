@@ -1,10 +1,11 @@
-.wrapper, .wrapper2 {
+.wrapper,
+.wrapper2 {
   margin: auto;
   width: 100%;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   position: relative;
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     max-width: 48rem;
     padding-left: 45px;
     padding-right: 45px;
@@ -21,7 +22,7 @@
 #who {
   transform: translate(0, -50px);
   padding-top: 1.875rem;
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     transform: translate(0, 160px);
   }
 }
@@ -32,6 +33,7 @@
   color: $primary-color;
   font-weight: 500;
   padding-bottom: 1.875rem;
+  padding-top: 1.875rem;
 }
 
 .image-container {
@@ -41,7 +43,7 @@
   border-radius: 0.25rem;
   overflow: hidden;
   margin: auto;
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     width: 206px;
     height: 206px;
     flex-shrink: 0;
@@ -55,7 +57,7 @@
 
 .card {
   padding-bottom: 2.813rem;
-  .info-container{
+  .info-container {
     font-family: $secondary-font;
   }
   .title-people {
@@ -68,7 +70,7 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 15px;
-    @media all and (min-width: 768px){
+    @media all and (min-width: 768px) {
       margin-top: 15px;
     }
   }
@@ -86,45 +88,45 @@
   color: $primary-color;
 }
 .left {
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     display: flex;
     align-items: flex-start;
   }
 }
 .left .info-container {
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 31px;
     width: 440px;
-    p{
+    p {
       text-align: left;
     }
   }
-  @media all and (min-width: 1200px){
+  @media all and (min-width: 1200px) {
     margin-left: 45px;
   }
 }
-  
+
 .right {
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
   }
 }
 .right .info-container {
-  @media all and (min-width: 768px){
+  @media all and (min-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-right: 31px;
     width: 440px;
-    p{
+    p {
       text-align: right;
     }
   }
-  @media all and (min-width: 1200px){
+  @media all and (min-width: 1200px) {
     margin-right: 45px;
   }
 }
