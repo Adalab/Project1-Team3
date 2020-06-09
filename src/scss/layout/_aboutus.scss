@@ -1,0 +1,130 @@
+.wrapper, .wrapper2 {
+  margin: auto;
+  width: 100%;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  position: relative;
+  @media all and (min-width: 768px){
+    max-width: 48rem;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: 1200px;
+    padding-left: 138px;
+    padding-right: 138px;
+  }
+}
+
+/* TEAM */
+
+#who {
+  transform: translate(0, -50px);
+  padding-top: 1.875rem;
+  @media all and (min-width: 768px){
+    transform: translate(0, 160px);
+  }
+}
+
+.title-who {
+  font-family: $primary-font;
+  font-size: 1.5rem;
+  color: $primary-color;
+  font-weight: 500;
+  padding-bottom: 1.875rem;
+}
+
+.image-container {
+  width: 180px;
+  height: 180px;
+  border: 0.3125rem solid $grey-border;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin: auto;
+  @media all and (min-width: 768px){
+    width: 206px;
+    height: 206px;
+    flex-shrink: 0;
+  }
+  @media all and (min-width: 1200px) {
+    width: 278px;
+    height: 278px;
+    margin: 0px;
+  }
+}
+
+.card {
+  padding-bottom: 2.813rem;
+  .info-container{
+    font-family: $secondary-font;
+  }
+  .title-people {
+    font-size: 1.25rem;
+    line-height: 45px;
+    font-weight: normal;
+  }
+  .sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    @media all and (min-width: 768px){
+      margin-top: 15px;
+    }
+  }
+}
+
+.sm a:nth-child(1):after,
+.sm a:nth-child(2):after,
+.sm a:nth-child(3):after {
+  color: $grey-links-footer;
+  content: "·";
+  margin: 0.5rem;
+}
+
+.icons {
+  color: $primary-color;
+}
+.left {
+  @media all and (min-width: 768px){
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.left .info-container {
+  @media all and (min-width: 768px){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 31px;
+    width: 440px;
+    p{
+      text-align: left;
+    }
+  }
+  @media all and (min-width: 1200px){
+    margin-left: 45px;
+  }
+}
+  
+.right {
+  @media all and (min-width: 768px){
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+.right .info-container {
+  @media all and (min-width: 768px){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 31px;
+    width: 440px;
+    p{
+      text-align: right;
+    }
+  }
+  @media all and (min-width: 1200px){
+    margin-right: 45px;
+  }
+}

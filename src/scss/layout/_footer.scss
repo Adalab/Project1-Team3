@@ -1,64 +1,64 @@
 .footer-border {
-    border-top: 1px solid $grey-footer;
+  border-top: 1px solid $grey-footer;
 }
 .copyright {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: $grey-footer;
-    font-family: $secondary-font;
-    padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: $grey-footer;
+  font-family: $secondary-font;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
 
-    @media all and (min-width: 768px) {
-        padding-top: 0.125rem;
-        position: relative;
-    }
+  @media all and (min-width: 768px) {
+    padding-top: 0.125rem;
+    position: relative;
+  }
 }
 
 .footer-links {
-    @media all and (min-width: 768px) {
-        order: 3;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-        width: 20.25rem;
-        height: 5.625rem;
-    }
+  @media all and (min-width: 768px) {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 20.25rem;
+    height: 5.625rem;
+  }
 
-    & li {
-        padding: 3px;
-    }
+  & li {
+    padding: 3px;
+  }
 
-    & a {
-        list-style-type: none;
-        line-height: 1.25rem;
-        font-size: 0.875rem;
-        color: $grey-links-footer;
-        font-weight: bolder;
-        text-decoration: none;
-    }
+  & a {
+    list-style-type: none;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: $grey-links-footer;
+    font-weight: bolder;
+    text-decoration: none;
+  }
 }
 
 .logo-adalab {
-    max-width: 7.25rem;
-    max-height: 2.813rem;
-    padding-top: 1.875rem;
-    margin: auto;
+  max-width: 7.25rem;
+  max-height: 2.813rem;
+  padding-top: 1.875rem;
+  margin: auto;
 
-    @media all and (min-width: 768px) {
-        padding-top: 0px;
-        position: absolute;
-        transform: translate(-9px, 100%);
-    }
+  @media all and (min-width: 768px) {
+    padding-top: 0px;
+    position: absolute;
+    transform: translate(-9px, 100%);
+  }
 }
 .main-footer {
-    padding-bottom: 2.813rem;
-    padding-top: 1.875rem;
+  padding-bottom: 2.813rem;
+  padding-top: 1.875rem;
 
-    @media all and (min-width: 768px) {
-        display: flex;
-        justify-content: space-between;
-        height: 10.63rem;
-    }
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    height: 10.63rem;
+  }
 }

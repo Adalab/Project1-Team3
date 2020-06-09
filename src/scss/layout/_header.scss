@@ -1,0 +1,71 @@
+.header {
+  background-color: $primary-color;
+  opacity: 95%;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  z-index: 15;
+
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-title {
+    background-color: $primary-color;
+    text-align: center;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+
+    @media all and (min-width: 768px) {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      line-height: 30px;
+      margin-left: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-left: 140px;
+    }
+
+    h1 {
+      font-family: $primary-font;
+      font-size: 1rem;
+      line-height: 30px;
+    }
+  }
+  &-menu {
+    background-color: #14d9c4;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+
+    @media all and (min-width: 768px) {
+      background-color: $primary-color;
+      height: 60px;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9375rem;
+    }
+
+    a {
+      font-family: $primary-font;
+      color: white;
+    }
+
+    &-item {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+.nav-header-menu {
+  @media all and (min-width: 768px) {
+    width: 295px;
+    margin-right: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-right: 140px;
+  }
+}
