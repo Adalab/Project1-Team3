@@ -1,8 +1,3 @@
-* {
-  text-decoration: none;
-  text-align: center;
-}
-
 /* Box sizing rules */
 *,
 *::before,
@@ -87,4 +82,8 @@ img:not([alt]) {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+* {
+  text-decoration: none;
+  text-align: center;
 }
