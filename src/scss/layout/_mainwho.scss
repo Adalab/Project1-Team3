@@ -1,41 +1,54 @@
 #who {
-  transform: translate(0, -50px);
+    transform: translate(0, -50px);
 }
 
 .team {
-  margin-bottom: 1.875rem;
+    margin-bottom: 1.875rem;
 }
 
 .title-team {
-  font-family: $primary-font;
-  font-size: 1.5rem;
-  color: #14d9c4;
-  font-weight: 500;
+    font-family: $primary-font;
+    font-size: 1.5rem;
+    color: #14d9c4;
+    font-weight: 500;
 }
 
 .bite {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  transform: translate(0, 150%) rotate(45deg);
-  margin: auto;
-  z-index: 14;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    transform: translate(0, 50%) rotate(45deg);
+    margin: auto;
+    z-index: 14;
 }
 .strengths-weaknesses {
-  background: $grey-color;
-  padding-top: 1.875rem;
-  padding-bottom: 2.813rem;
-  width: 100%;
+    background: $grey-color;
+    padding-top: 1.875rem;
+    padding-bottom: 2.813rem;
+    width: 100%;
 }
 
 .strengths {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .title-secondary {
-  font-size: 1.375rem;
-  font-family: $primary-font;
-  color: $primary-color;
-  line-height: 45px;
+    font-size: 1.375rem;
+    font-family: $primary-font;
+    color: $primary-color;
+    line-height: 45px;
+}
+
+@media all and (min-width: 768px) {
+    .strengths-weaknesses {
+        display: flex;
+        align-items: flex-start;
+    }
+    .weaknesses {
+        height: 268.8px;
+    }
+
+    @media all and (min-width: 1200px) {
+    }
 }
