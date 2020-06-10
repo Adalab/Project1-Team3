@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savages</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <include src="./partials/hero.html"></include>
+    <main>
+      <div class="contact-info">
+        <h1>Contacto</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+          voluptatem itaque consequuntur. Doloribus delectus praesentium impedit
+          animi est exercitationem, qui et.
+        </p>
+        <p class="text-small"></p>
+          Todos los campos marcados con <span class="asterisk">*</span> son
+          obligatorios
+        </p>
+      </div>
+      <form action="WEBQUESEA" method="post">
+        <label>
+            Nombre completo <span class="asterisk">*</span>
+            <input type="text" placeholder="Nombre..." id="name" name="name" required />
+          </label>
+        
+          <div class="flex">
+            <label>
+              Email <span class="asterisk">*</span>
+              <input
+                class="inline item1"
+                class="email"
+                type="email"
+                placeholder="Email"
+                value="nombre.apellidos@mail.com"
+                id="email"
+                name="email"
+                required
+              />
+            </label>
+        
+            <label>
+              Teléfono
+              <input
+                class="inline item2"
+                type="tel"
+                placeholder="Ej: 123456789"
+                id="phone"
+                name="phone"
+              />
+            </label>
+          </div>
+        
+          <label for="comments">Mensaje <span class="asterisk">*</span></label>
+          <textarea
+            id="comments"
+            name="comments"
+            rows="8"
+            cols="80"
+            placeholder="¿Qué necesitas?"
+            required
+          ></textarea>
+        
+          <div>
+            <input class="send" type="submit" value="ENVIAR" />
+          </div>
+
+      </form>
+    </main>
+    <include src="./partials/footer.html"></include>
+  </body>
+</html>
