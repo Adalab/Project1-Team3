@@ -40,7 +40,7 @@
     justify-content: space-around;
 
     @media all and (min-width: 768px) {
-      background-color: $primary-color;
+      background-color: transparentize(#14d9c4, 1);
       height: 60px;
       justify-content: space-between;
       align-items: center;
