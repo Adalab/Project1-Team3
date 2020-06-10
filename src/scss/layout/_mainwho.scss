@@ -29,6 +29,22 @@
   width: 100%;
 }
 
+.mainwho-container {
+  margin: auto;
+  width: 100%;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  position: relative;
+  @media all and (min-width: 768px) {
+    display: flex;
+    align-items: flex-start;
+    max-width: 48rem;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
 .strengths {
   padding-bottom: 30px;
 }
@@ -43,12 +59,8 @@
 @media all and (min-width: 768px) {
   .strengths-weaknesses {
     display: flex;
-    align-items: flex-start;
   }
   .strengths {
     padding-bottom: 0px;
-  }
-
-  @media all and (min-width: 1200px) {
   }
 }
