@@ -9,7 +9,7 @@
 .title-team {
   font-family: $primary-font;
   font-size: 1.5rem;
-  color: #14d9c4;
+  color: $primary-color;
   font-weight: 500;
 }
 
@@ -27,6 +27,9 @@
   padding-top: 1.875rem;
   padding-bottom: 2.813rem;
   width: 100%;
+  @media all and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .mainwho-container {
@@ -47,6 +50,9 @@
 
 .strengths {
   padding-bottom: 30px;
+  @media all and (min-width: 768px) {
+    padding-bottom: 0px;
+  }
 }
 
 .title-secondary {
@@ -54,13 +60,4 @@
   font-family: $primary-font;
   color: $primary-color;
   line-height: 45px;
-}
-
-@media all and (min-width: 768px) {
-  .strengths-weaknesses {
-    display: flex;
-  }
-  .strengths {
-    padding-bottom: 0px;
-  }
 }
