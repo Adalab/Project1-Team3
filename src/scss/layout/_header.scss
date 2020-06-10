@@ -1,17 +1,21 @@
 .header {
-  background-color: transparentize($primary-color, 0.05);
   color: white;
   position: fixed;
   width: 100vw;
   z-index: 15;
+  a{
+    font-family: $primary-font;
+    color: white;
+  }
 
   @media all and (min-width: 768px) {
+    background-color: transparentize($primary-color, 0.05);
     display: flex;
     justify-content: space-between;
   }
 
   &-title {
-    background-color: $primary-color;
+    background-color: transparentize($primary-color, 0.05);
     text-align: center;
     padding-top: 0.9375rem;
     padding-bottom: 0.9375rem;
@@ -35,7 +39,7 @@
     }
   }
   &-menu {
-    background-color: transparentize(#14d9c4, 0.05);
+    background-color: transparentize(#14d9c4, 0.1);
     display: flex;
     justify-content: space-around;
 
@@ -50,6 +54,7 @@
     a {
       font-family: $primary-font;
       color: white;
+  
     }
 
     &-item {
