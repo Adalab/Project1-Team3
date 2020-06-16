@@ -13,7 +13,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    
   </head>
   <body>
     <header class="header">
@@ -37,66 +36,69 @@
 
     <section class="hero2"></section>
 
-    <main>
-      <div class="contact-info wrapper">
+    <main class="contact-main wrapper-contact">
+      <div class="contact-info">
         <h1>Contacto</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-          voluptatem itaque consequuntur. Doloribus delectus praesentium impedit
-          animi est exercitationem, qui et.
+        <p class="contact-text">
+          ¿Tienes alguna pregunta? ¿Quieres trabajar con nosotras? No dudes en
+          escribirnos, estamos deseando colaborar contigo en tu próximo
+          proyecto.
         </p>
-        <p class="text-small"></p>
+        <p class="text-small">
           Todos los campos marcados con <span class="asterisk">*</span> son
           obligatorios
         </p>
       </div>
-      <form action="https://formspree.io/xpzydvpb" method="post" class="wrapper">
+      <form action="https://formspree.io/xoqkwbpb" method="post" class="form">
         <label>
-            Nombre completo <span class="asterisk">*</span>
-            <input type="text" placeholder="Nombre..." id="name" name="name" required />
-          </label>
-        
-          <div class="flex">
-            <label>
-              Email <span class="asterisk">*</span>
-              <input
-                class="inline item1"
-                class="email"
-                type="email"
-                placeholder="Email"
-                value="nombre.apellidos@mail.com"
-                id="email"
-                name="email"
-                required
-              />
-            </label>
-        
-            <label>
-              Teléfono
-              <input
-                class="inline item2"
-                type="tel"
-                placeholder="Ej: 123456789"
-                id="phone"
-                name="phone"
-              />
-            </label>
-          </div>
-        
-          <label for="comments">Mensaje <span class="asterisk">*</span></label>
-          <textarea
-            id="comments"
-            name="comments"
-            rows="8"
-            cols="50"
-            placeholder="¿Qué necesitas?"
+          Nombre completo <span class="asterisk">*</span>
+          <input
+            type="text"
+            placeholder="Nombre..."
+            id="name"
+            name="name"
             required
-          ></textarea>
-        
-          <div>
-            <input class="send" type="submit" value="ENVIAR" />
-          </div>
+          />
+        </label>
 
+        <div class="flex">
+          <label>
+            Email <span class="asterisk">*</span>
+            <input
+              class="email"
+              type="email"
+              placeholder="Email"
+              id="email"
+              name="email"
+              required
+            />
+          </label>
+
+          <label>
+            Teléfono
+            <input
+              class="phone"
+              type="tel"
+              placeholder="Ej: 123456789"
+              id="phone"
+              name="phone"
+            />
+          </label>
+        </div>
+
+        <label for="comments">Mensaje<span class="asterisk">*</span></label>
+        <textarea
+          id="comments"
+          name="comments"
+          rows="4"
+          cols="50"
+          placeholder="¿Qué necesitas?"
+          required
+        ></textarea>
+
+        <div class="send-button">
+          <input class="send" type="submit" value="ENVIAR" name="_next" />
+        </div>
       </form>
     </main>
     <footer class="footer-border">
