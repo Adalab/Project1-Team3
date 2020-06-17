@@ -116,13 +116,14 @@
         justify-content: center;
       }
       &:hover {
-        animation: slidebg 3s linear infinite;
+        animation: slidebg 3s alternate infinite;
+
         cursor: pointer;
         @media all and (min-width: 768px) {
-          animation: slidebg 5s linear infinite;
+          animation: slidebg 5s alternate infinite;
         }
         @media all and (min-width: 1200px) {
-          animation: slidebg 7s linear infinite;
+          animation: slidebg 7s alternate infinite;
         }
       }
 
